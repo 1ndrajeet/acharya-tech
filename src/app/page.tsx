@@ -8,9 +8,8 @@ const font = Metal_Mania({ subsets: ["latin"], weight: "400" });
 export default function ComingSoonPage() {
   const [email, setEmail] = useState('');
 
-  interface FormEventWithTarget extends React.FormEvent<HTMLFormElement> {}
 
-  const handleSubmit = (e: FormEventWithTarget) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Form functionality to be implemented later
     alert('Email submitted:' + email);

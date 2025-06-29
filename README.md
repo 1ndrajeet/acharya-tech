@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Acharya Technologies
 
-## Getting Started
+**Innovating Examination Systems. Empowering Institutions.**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to the official repository for **Acharya Technologies**!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Our mission is to revolutionize examination systems and empower educational institutions with modern, efficient, and secure solutions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Coming Soon
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+We are working hard to launch our full platform. Stay tuned for updates!
 
-## Learn More
+## ✉️ Get Notified
 
-To learn more about Next.js, take a look at the following resources:
+Want to be the first to know when we launch? Enter your email on our site and we'll notify you!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features (Planned)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Modern, user-friendly examination platform
+- Secure and scalable infrastructure
+- Tools for institutions, educators, and students
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js** (React)
+- **Tailwind CSS**
+- **Google Fonts (Metal Mania)**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Development
+
+This repository contains the code for our "Coming Soon" landing page, including:
+
+- Responsive design
+- Animated hero section
+- Email notification form (functionality coming soon)
+
+## License
+
+© 2025 Acharya Technologies
+
+---
+
+*Stay tuned for more updates!*
