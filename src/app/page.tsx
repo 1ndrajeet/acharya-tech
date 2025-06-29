@@ -1,12 +1,16 @@
 // app/page.js
 'use client';
 
+import { Metal_Mania } from 'next/font/google';
 import { useState } from 'react';
 
+const font = Metal_Mania({ subsets: ["latin"], weight: "400" });
 export default function ComingSoonPage() {
   const [email, setEmail] = useState('');
 
-  const handleSubmit = (e) => {
+  interface FormEventWithTarget extends React.FormEvent<HTMLFormElement> {}
+
+  const handleSubmit = (e: FormEventWithTarget) => {
     e.preventDefault();
     // Form functionality to be implemented later
     alert('Email submitted:' + email);
@@ -18,7 +22,7 @@ export default function ComingSoonPage() {
       <main className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           {/* Company Name */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-slide-up">
+          <h1 className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-slide-up ${font.className}`}>
             Acharya Technologies
           </h1>
 
